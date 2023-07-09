@@ -106,7 +106,7 @@ async def next_page(bot, query):
         ENABLE_SHORTLINK = settings['is_shortlink']
     else:
         await save_group_settings(query.message.chat.id, 'is_shortlink', True)
-        ENABLE_SHORTLINK = False
+        ENABLE_SHORTLINK = True
     if ENABLE_SHORTLINK and settings['button']:
         btn = [
             [
