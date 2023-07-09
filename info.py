@@ -48,10 +48,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "mdisklink.link")
-VERIFY2_API = environ.get('VERIFY2_API', "4fa150d44b4bf6579c24b33bbbb786dbfb4fc673")
+VERIFY2_URL = environ.get('VERIFY2_URL', "onepagelink.in")
+VERIFY2_API = environ.get('VERIFY2_API', "a450a60a11e155aa443301ba2de6055a3cdbd7e2")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Onepagelink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'a450a60a11e155aa443301ba2de6055a3cdbd7e2')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
