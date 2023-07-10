@@ -242,7 +242,7 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#files#{offset}#{req}"),
+       
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
@@ -354,7 +354,6 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
             InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
 
@@ -1151,7 +1150,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('📑 Aʙᴏᴜᴛ', callback_data='about'),
                  
                 ],[
-                    InlineKeyboardButton('☄ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ☄', url=CHNL_LNK)
+                    InlineKeyboardButton('💰 SET YOUR SHORTNER 💰', url='https://t.me/My_testgrp/2278')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1623,7 +1622,7 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{message.from_user.id}"),
+        ,
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
