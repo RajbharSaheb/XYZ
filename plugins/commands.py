@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton('📑 Aʙᴏᴜᴛ', callback_data='about'),
                  
                 ],[
-                    InlineKeyboardButton('☄ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ☄', url=CHNL_LNK)
+                    InlineKeyboardButton('💰 SET YOUR SHORTNER 💰', url='https://t.me/My_testgrp/2278')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -60,7 +60,7 @@ async def start(client, message):
                     InlineKeyboardButton('📑 Aʙᴏᴜᴛ', callback_data='about'),
                  
                 ],[
-                    InlineKeyboardButton('☄ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ☄', url=CHNL_LNK)
+                    InlineKeyboardButton('💰 SET YOUR SHORTNER 💰', url='https://t.me/My_testgrp/2278')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -109,7 +109,7 @@ async def start(client, message):
                     InlineKeyboardButton('📑 Aʙᴏᴜᴛ', callback_data='about'),
                  
                 ],[
-                    InlineKeyboardButton('☄ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ☄', url=CHNL_LNK)
+                    InlineKeyboardButton('💰 SET YOUR SHORTNER 💰', url='https://t.me/My_testgrp/2278')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
